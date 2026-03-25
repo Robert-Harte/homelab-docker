@@ -1,0 +1,39 @@
+services:
+
+  postgres:
+    image: postgres:14.19-alpine3.21
+    container_name: postgres_db
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: ${DATABASE_NAME}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    env_file:
+      - .env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+    - home_network
+
+  pg_admin:
+    image: dpage/pgadmin4:9.13.0
+    container_name: pg_admin
+    ports:
+      - 80:80
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
+    env_file:
+      - .env
+    depends_on:
+      - "postgres"
+    networks:
+    - home_network
+
+volumes:
+  postgres_data:
+
+networks:
+  home_network:
+    name: home_network
+    external: false

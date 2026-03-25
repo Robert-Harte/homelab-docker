@@ -1,0 +1,5 @@
+# My single docker-compose file. This simply links to other docker-compose files.
+# I can bring up the entire stack with a single file, but edit/modify other stacks individually.
+
+include:
+  - path: "database/postgres-pgadmin.yaml"

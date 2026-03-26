@@ -3,3 +3,4 @@
 
 include:
   - path: "database/postgres-pgadmin.yaml"
+  - path: "apps/homepage/homepage.yaml"

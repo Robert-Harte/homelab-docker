@@ -1,0 +1,13 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/info-widgets/
+
+- resources:
+    backend: resources
+    expanded: true
+    cpu: true
+    memory: true
+    network: default
+- search:
+    provider: duckduckgo
+    target: _blank

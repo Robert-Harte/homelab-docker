@@ -1,0 +1,16 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/bookmarks
+
+- Developer:
+    - Github:
+        - abbr: GH
+          href: https://github.com/
+
+- Internal:
+        - LinkDing:
+            - href: https://linkding.robertharte.net/
+              description: LinkDing
+        - Mealie:
+            - href: https://mealie.robertharte.net/
+              description: Mealie

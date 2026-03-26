@@ -1,0 +1,53 @@
+[2026-03-26T15:05:05.025Z] info: kubernetes.yaml was copied to the config folder
+[2026-03-26T15:05:37.709Z] info: widgets.yaml was copied to the config folder
+[2026-03-26T15:05:37.732Z] info: docker.yaml was copied to the config folder
+[2026-03-26T15:05:37.734Z] info: services.yaml was copied to the config folder
+[2026-03-26T15:05:37.736Z] info: bookmarks.yaml was copied to the config folder
+[2026-03-26T15:05:37.738Z] info: proxmox.yaml was copied to the config folder
+[2026-03-26T15:05:37.756Z] info: custom.css was copied to the config folder
+[2026-03-26T15:05:37.757Z] info: custom.js was copied to the config folder
+[2026-03-26T15:11:40.310Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:11:40.427Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:11:40.428Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:11:40.431Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:11:40.432Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:11:40.433Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:11:40.435Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:11:40.440Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:11:40.442Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:11:40.443Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:11:40.446Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:11:40.453Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:11:44.533Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:12:09.042Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:12:09.044Z] error: Host validation failed for: 192.168.0.50:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-26T15:14:15.044Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-03-26T15:14:15.045Z] error: bad indentation of a mapping entry (11:5)
+
+  8 |         cpu: true
+  9 |         memory: true
+ 10 |         network: default
+ 11 |     - search:
+----------^
+ 12 |         provider: duckduckgo
+ 13 |         target: _blank
+[2026-03-26T15:14:15.065Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-03-26T15:14:15.066Z] error: bad indentation of a mapping entry (11:5)
+
+  8 |         cpu: true
+  9 |         memory: true
+ 10 |         network: default
+ 11 |     - search:
+----------^
+ 12 |         provider: duckduckgo
+ 13 |         target: _blank
+[2026-03-26T15:14:15.208Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-03-26T15:14:15.208Z] error: bad indentation of a mapping entry (11:5)
+
+  8 |         cpu: true
+  9 |         memory: true
+ 10 |         network: default
+ 11 |     - search:
+----------^
+ 12 |         provider: duckduckgo
+ 13 |         target: _blank

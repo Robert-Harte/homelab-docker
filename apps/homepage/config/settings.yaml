@@ -1,0 +1,12 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+title: Homelab homepage
+
+theme: dark # hardcode to dark mode.
+color: slate # remove pallette picker.
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey

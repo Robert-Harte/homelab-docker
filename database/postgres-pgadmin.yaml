@@ -13,7 +13,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
     networks:
-    - home_network
+      - home_network
 
   pg_admin:
     image: dpage/pgadmin4:9.13.0
@@ -28,7 +28,7 @@ services:
     depends_on:
       - "postgres"
     networks:
-    - home_network
+      - home_network
 
 volumes:
   postgres_data:

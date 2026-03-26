@@ -1,2 +1,3 @@
 # Ignore the environment variables files. These should not be published!
 *.env
+*.log

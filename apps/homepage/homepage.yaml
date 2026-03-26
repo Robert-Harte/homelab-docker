@@ -11,3 +11,4 @@ services:
     environment:
       PUID: $PUID # read from .env
       PGID: $PGID # read from .env
+      HOMEPAGE_ALLOWED_HOSTS: gondolin.robertharte.net:3000,homepage.robertharte.net:3000

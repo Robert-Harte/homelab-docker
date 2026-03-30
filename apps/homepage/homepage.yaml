@@ -11,10 +11,3 @@ services:
     environment:
       PUID: $PUID # read from .env
       PGID: $PGID # read from .env
-    networks:
-      - home_network
-
-networks:
-  home_network:
-    name: home_network
-    external: false

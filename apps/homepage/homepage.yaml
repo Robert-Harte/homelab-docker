@@ -10,4 +10,11 @@ services:
       # - /var/run/docker.sock:/var/run/docker.sock:ro
     environment:
       PUID: $PUID # read from .env
-      PGID: $PGID # read from .env
+      PGID: $PGID # read from .envi
+    networks:
+      - home_network
+
+networks:
+  home_network:
+    name: home_network
+    external: false

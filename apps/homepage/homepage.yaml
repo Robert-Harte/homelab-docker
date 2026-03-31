@@ -10,7 +10,8 @@ services:
       # - /var/run/docker.sock:/var/run/docker.sock:ro
     environment:
       PUID: $PUID # read from .env
-      PGID: $PGID # read from .envi
+      PGID: $PGID # read from .env
+      HOMEPAGE_ALLOWED_HOSTS: gondolin.robertharte.net, homepage.robertharte.net
     networks:
       - home_network
 

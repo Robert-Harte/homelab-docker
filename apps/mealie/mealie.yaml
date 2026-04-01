@@ -12,6 +12,8 @@ services:
       - ./config:/app/config
     env_file:
       - .env
+    network:
+      - home_network
 
 networks:
   home_network:

@@ -24,8 +24,6 @@ services:
       PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
     env_file:
       - .env
-    depends_on:
-      - "postgres"
     networks:
       - home_network
 

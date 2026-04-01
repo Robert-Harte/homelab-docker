@@ -1,0 +1,19 @@
+services:
+  mealie:
+    container_name: mealie
+    image: ghcr.io/mealie-recipes/mealie:v3.14.0 # 
+    ports:
+        - "9925:9925" # 
+    deploy:
+      resources:
+        limits:
+          memory: 1000M # 
+    volumes:
+      - ./config:/app/config
+    env_file:
+      - .env
+
+networks:
+  home_network:
+    name: home_network
+    external: false

@@ -5,3 +5,4 @@ include:
   - path: "database/postgres-pgadmin.yaml"
   - path: "apps/homepage/homepage.yaml"
   - path: "apps/linkding/linkding.yaml"
+  - path: "apps/mealie/mealie.yaml"

@@ -12,7 +12,7 @@ services:
       - ./config:/app/config
     env_file:
       - .env
-    network:
+    networks:
       - home_network
 
 networks:

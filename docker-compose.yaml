@@ -6,3 +6,4 @@ include:
   - path: "apps/homepage/homepage.yaml"
   - path: "apps/linkding/linkding.yaml"
   - path: "apps/mealie/mealie.yaml"
+  - path: "infrastructure/monitoring/prometheus-grafana.yaml"
